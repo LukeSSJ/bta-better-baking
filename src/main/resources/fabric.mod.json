@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "betterbaking",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Better Baking",
+  "description": "A mod to save you from eating raw wheat.",
   "authors": [
-    "Turnip Labs"
+    "Luke1235"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"luke1235.betterbaking.BetterBakingMod"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"luke1235.betterbaking.BetterBakingMod"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"luke1235.betterbaking.BetterBakingMod"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"luke1235.betterbaking.BetterBakingMod"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "betterbaking.mixins.json"
   ],
 
   "depends": {
